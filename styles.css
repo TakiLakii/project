@@ -1,0 +1,195 @@
+/* Reset podstawowych styli */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+}
+
+header .logo h1 {
+    color: #e0e0e0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #007BFF;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 36px;
+}
+
+.cta-button {
+    background-color: #FF5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cta-button:hover {
+    background-color: #ff3300;
+}
+
+/* Sekcja */
+.section {
+    padding: 40px 0;
+    background-color: #1f1f1f;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    width: 30%;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+}
+
+.service p {
+    font-size: 16px;
+    color: #bbb;
+}
+
+/* Formularz kontaktowy */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px 0;
+}
+.product h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #FF5733;
+    border-bottom: none; /* Usunięcie linii poniżej tekstu */
+    text-decoration: none; /* Usunięcie ewentualnego podkreślenia */
+}
+
+/* Przyciski Login/Register w prawym górnym rogu */
+.login-register {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.login-register .btn {
+    padding: 10px 20px;
+    background-color: #333; /* Ciemny kolor pasujący do reszty strony */
+    color: #FF5733; /* Kolor tekstu zgodny z resztą strony */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    border: 2px solid transparent; /* Dodajemy ramkę na początku */
+}
+
+.login-register .btn:hover {
+    background-color: #FF5733; /* Kolor tła zmienia się na pomarańczowy */
+    color: white; /* Kolor tekstu zmienia się na biały przy hover */
+    transform: scale(1.05); /* Efekt powiększenia przy najechaniu */
+    border-color: #FF5733; /* Ramka staje się pomarańczowa */
+}
+
+
